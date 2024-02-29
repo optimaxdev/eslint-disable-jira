@@ -87,7 +87,7 @@ module.exports = class {
           value: `${platform} - Refactor in order to remove eslint disable: ${content}`,
         },
         {
-          key: 'customfield_14697',
+          key: 'assignee',
           value: {
             accountId: jiraIssue
               ? jiraIssue.fields.customfield_14697.accountId
