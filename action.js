@@ -189,7 +189,7 @@ module.exports = class {
                 !el.route.includes('.test.') &&
                 !el.route.includes('__specs__') &&
                 !el.route.includes('__analytics__') &&
-                !el.route.includes('__new_specs__'),
+                !el.route.includes('__new_specs__') && !el.route.includes('/api/'),
         )
   }
 }
